@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #343a40;
+}
+
+.content{
+    background-color: #343a40;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.encabezado {
+    margin: 0;
+}
+
+.encabezado img {
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.encabezado nav{
+    display: flex;
+    justify-content: space;
+    padding-left: 40px;
+    height: 75px;
+}
+
+.encabezado nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.encabezado a:hover{
+    background: rgba(0, 0, 0, 0.301);
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 15px;
+    color: rgb(218, 211, 211);
+    padding: 28px 20px;
+}
+
+.encabezado nav ul li ul a{
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado nav ul li ul{
+    padding-top: 15px;
+    position: absolute;
+    background: #007bff;
+    border-radius: 10px;
+}
+
+.encabezado nav ul li ul li{
+    width: 180px;
+    position: relative;
+}
+
+.encabezado nav ul li ul{
+    display: none;
+}
+
+.encabezado ul li{
+    margin-top: 11px;
+    padding: 17px;
+}
+
+.encabezado nav ul li:hover > ul{
+    display: block;
+}
+
+
+.encabezado form button{
+    background-color: #343a40;
+    border-color: #343a40;
+    cursor: pointer;
+    display: inline-block;
+    color: blanchedalmond;
+    
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.275rem 0.75rem;
+    font-size: 1rem;
+    
+    border-radius: 0.25rem;
+    
+}
+
+.dropbtn {
+    background-color: #007bff;;
+    border-color: rgb(8, 82, 194);
+    color: rgb(218, 211, 211);
+    padding: 7px;
+    font-family: Verdana;
+    font-size: 12px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 13px;
+}
+
+.dropdown {
+    padding: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #007bff;
+    min-width: 100px;
+    box-shadow: rgba(0, 0, 0, 0.301);
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 6px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: rgba(0, 0, 0, 0.301)}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+.piepagina{
+    position: fixed;
+    bottom: 0;
+    box-sizing: content-box;
+    width: 100%;
+    height: 50px;
+    
+}
+.piepagina div{
+    box-sizing: content-box;
+    width: 100%;
+    height: 50px;
+    background-color: #007bff;
+}
+.piepagina div p{
+    padding: 13px;
+    text-align: center;
+    
+}
+

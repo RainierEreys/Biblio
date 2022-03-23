@@ -1,0 +1,52 @@
+.container-cartas-consultas{
+    width: 870px;
+    justify-content: center;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+   
+}
+
+
+.container-cartas-consultas  .card{
+    width: 330px;
+    height: 340px;
+    border-radius: 8px;
+    box-shadow: cornsilk;
+    overflow: hidden;
+    margin-top: 100px;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: rgb(230, 186, 93);
+}
+
+.container-cartas-consultas .card:hover{
+    transform: translate(-15px);
+    box-shadow: crimson;
+}
+
+.container-cartas-consultas  .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.container-cartas-consultas .card .card-body h5{
+    font-weight: 600;
+}
+
+.container-cartas-consultas .card .card-body p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container-cartas-consultas .card .card-body a{
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(245, 3, 3);
+}
